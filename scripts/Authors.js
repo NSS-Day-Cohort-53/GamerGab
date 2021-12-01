@@ -25,7 +25,7 @@ document.addEventListener("click", (event) => {
 
   // Check the id of the element for "author--"
   // Need the id of the author
-  if (event.target.id.startsWith("author--")) {
+  if (event.target.id.startsWith("author")) {
     // const authorId = event.target.id.split("--")[1]
     // or....
     // array destructuring
